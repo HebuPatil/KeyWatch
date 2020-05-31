@@ -1,0 +1,50 @@
+{
+  "name": "blockstack-contacts-manager",
+  "version": "0.1.0",
+  "description": "A demo app for Blockstack collections",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockstack/hello-blockstack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blockstack/hello-blockstack/issues"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "blockstack": "20.0.0-alpha.4",
+    "blockstack-collections": "0.1.8",
+    "qs": "^6.8.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.4.1",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "react-test-renderer": "^16.8.6"
+  }
+}
